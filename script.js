@@ -10,7 +10,7 @@ let user = {
   }
 };
 
-const getName = user.getName.bind({name: 'Vic2'});
+const getName = user.getName.bind(user);
 console.log(getName())
 
 
